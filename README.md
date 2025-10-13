@@ -1,6 +1,7 @@
 # TaskAPI Backend
 
-Django + Django REST Framework backend for task management application.
+**A Django + Django REST Framework backend for managing tasks efficiently.**  
+Supports CRUD operations, pagination, and filtering — ready for integration with a frontend or Postman testing.
 
 ## Setup
 1. Clone repository
