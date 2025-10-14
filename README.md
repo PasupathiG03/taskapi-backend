@@ -1,12 +1,25 @@
-# TaskAPI Backend
+# 🧠 Task Management API (Django REST Framework)
 
-**A Django + Django REST Framework backend for managing tasks efficiently.**  
-Supports CRUD operations, pagination, and filtering — ready for integration with a frontend or Postman testing.
+A simple and clean REST API built using **Django REST Framework (DRF)** for managing tasks.  
+This project demonstrates CRUD operations, proper API response formatting, and Git version control.
 
-## Setup
-1. Clone repository
-2. Create virtual environment: `python -m venv venv`
-3. Activate: `source venv/bin/activate`
-4. Install requirements: `pip install -r requirements.txt`
-5. Run migrations: `python manage.py migrate`
-6. Start server: `python manage.py runserver`
+---
+
+## 🚀 Features
+✅ Create, Read, Update, Delete (CRUD) tasks  
+✅ Custom JSON response with message, status, and timestamp  
+✅ Error handling for invalid or missing data  
+✅ REST API using Django REST Framework  
+✅ Git & GitHub integrated workflow  
+
+---
+
+## 🏗️ Tech Stack
+- **Backend:** Django, Django REST Framework  
+- **Database:** PostgreSQL (can use SQLite for local testing)  
+- **Language:** Python  
+- **Version Control:** Git + GitHub  
+
+---
+
+## 📁 Folder Structure
