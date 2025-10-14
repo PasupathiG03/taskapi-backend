@@ -22,4 +22,3 @@ This project demonstrates CRUD operations, proper API response formatting, and G
 
 ---
 
-## 📁 Folder Structure
