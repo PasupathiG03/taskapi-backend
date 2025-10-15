@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/PasupathiG03/taskapi-backend.git'
+                git branch: 'main', url: 'https://github.com/PasupathiG03/taskapi-backend.git'
             }
         }
 
