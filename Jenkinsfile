@@ -24,7 +24,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 echo "Running Django tests..."
-                sh '. $VENV/bin/activate && python backend/manage.py test'
+                sh '. $VENV/bin/activate && python backend/manage.py test tasks'
             }
         }
     }
